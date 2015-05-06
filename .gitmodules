@@ -28,3 +28,6 @@
 [submodule "external/modules/gamepad_visualizer"]
 	path = external/modules/gamepad_visualizer
 	url = https://github.com/syxolk/gamepad_visualizer
+[submodule "external/modules/gamepad_controller"]
+	path = external/modules/gamepad_controller
+	url = https://github.com/Phibedy/gamepad_controller

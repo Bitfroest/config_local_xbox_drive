@@ -1,0 +1,52 @@
+<framework>
+	<execution>
+		<maxThreadCount> 1 </maxThreadCount>
+		<clock enabled="true" unit="hz">100</clock>
+	</execution>
+	<modulesToEnable>
+		<module>ogre_window_manager</module>
+		<module>image_renderer</module>
+		<module>gamepad_controller</module>
+		<module>gamepad_visualizer</module>
+		<module>virtual_controller</module>
+		<module>usb_sense_link</module>
+	</modulesToEnable>
+	<module>
+		<name>gamepad_visualizer</name>
+		<channelMapping from="CAMERA_IMAGE" to="IMAGE" />
+	</module>
+	
+	<module>
+		<name>gamepad_controller</name>
+		<config>
+			<dataChannelName>CONTROLLER_1</dataChannelName>
+			<controller>Xbox,XBox,360</controller>
+		</config>
+	</module>
+	
+	<module>
+		<name>image_renderer</name>
+	</module>
+	
+	<module>
+		<name>ogre_window_manager</name>
+		<config src="visualmanager.lconf"/>
+	</module>
+	
+	<module>
+		<name>usb_sense_link</name>
+		<config> 
+			<path>/dev/ttyACM0</path>
+		</config>
+	</module>
+	
+	<module>
+		<name>virtual_controller</name>
+		<channelMapping from="360" to="CONTROLLER_1" />
+		<config>
+			<maxFrontServoRange>7000</maxFrontServoRange>
+			<maxMotorRange>10000</maxMotorRange>
+		</config>
+	</module>
+	
+</framework>
