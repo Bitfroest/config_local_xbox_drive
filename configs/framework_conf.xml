@@ -20,6 +20,7 @@
 		<config>
 			<dataChannelName>GAMEPAD</dataChannelName>
 			<controller>Xbox,XBox,360</controller>
+			<type>xpad</type>
 		</config>
 	</module>
 	
