@@ -1,3 +1,30 @@
 [submodule "LMS"]
 	path = LMS
 	url = https://github.com/Phibedy/LMS
+[submodule "external/libraries/gamepad_lib"]
+	path = external/libraries/gamepad_lib
+	url = https://github.com/Phibedy/gamepad_lib.git
+[submodule "external/libraries/ogre_binding"]
+	path = external/libraries/ogre_binding
+	url = https://github.com/Phibedy/ogre_binding
+[submodule "external/libraries/sense_link"]
+	path = external/libraries/sense_link
+	url = https://github.com/Bitfroest/sense_link
+[submodule "external/libraries/imaging"]
+	path = external/libraries/imaging
+	url = https://github.com/syxolk/imaging
+[submodule "external/modules/ogre_window_manager"]
+	path = external/modules/ogre_window_manager
+	url = https://github.com/Phibedy/ogre_window_manager
+[submodule "external/modules/image_renderer"]
+	path = external/modules/image_renderer
+	url = https://github.com/Phibedy/image_renderer
+[submodule "external/modules/usb_sense_link"]
+	path = external/modules/usb_sense_link
+	url = https://github.com/Bitfroest/usb_sense_link
+[submodule "external/modules/virtual_controller"]
+	path = external/modules/virtual_controller
+	url = https://github.com/Bitfroest/virtual_controller
+[submodule "external/modules/gamepad_visualizer"]
+	path = external/modules/gamepad_visualizer
+	url = https://github.com/syxolk/gamepad_visualizer
