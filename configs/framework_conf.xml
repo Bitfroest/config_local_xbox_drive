@@ -7,19 +7,18 @@
 		<module>ogre_window_manager</module>
 		<module>image_renderer</module>
 		<module>gamepad_controller</module>
+		<module>usb_sense_link</module>
 		<module>gamepad_visualizer</module>
 		<module>virtual_controller</module>
-		<module>usb_sense_link</module>
 	</modulesToEnable>
 	<module>
 		<name>gamepad_visualizer</name>
-		<channelMapping from="CAMERA_IMAGE" to="IMAGE" />
 	</module>
 	
 	<module>
 		<name>gamepad_controller</name>
 		<config>
-			<dataChannelName>CONTROLLER_1</dataChannelName>
+			<dataChannelName>GAMEPAD</dataChannelName>
 			<controller>Xbox,XBox,360</controller>
 		</config>
 	</module>
@@ -42,7 +41,7 @@
 	
 	<module>
 		<name>virtual_controller</name>
-		<channelMapping from="360" to="CONTROLLER_1" />
+		<channelMapping from="360" to="GAMEPAD" />
 		<config>
 			<maxFrontServoRange>7000</maxFrontServoRange>
 			<maxMotorRange>10000</maxMotorRange>
