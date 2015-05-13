@@ -10,6 +10,7 @@
 		<module>usb_sense_link</module>
 		<module>gamepad_visualizer</module>
 		<module>virtual_controller</module>
+                <module>sensor_logger</module>
 	</modulesToEnable>
 	<module>
 		<name>gamepad_visualizer</name>
@@ -23,6 +24,14 @@
 			<type>xpad</type>
 		</config>
 	</module>
+
+        <module>
+                <name>sensor_logger</name>
+                <config>
+                        <savePath>~/</savePath>
+                        <sensors>1,2,3,4,5,6,7,8,9,10</sensors>
+                </config>
+        </module>
 	
 	<module>
 		<name>image_renderer</name>
